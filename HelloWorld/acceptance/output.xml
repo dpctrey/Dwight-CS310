@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 2.8.5 (Jython 2.5.3 on java1.8.0_25)" generated="20150110 02:45:43.447">
+<suite source="C:\Users\Trey\Desktop\CS310\jsu-mcis-cs310-master\HelloWorld\acceptance\HelloWorldTests.txt" name="HelloWorldTests" id="s1">
+<test name="Say Hello" id="s1-t1">
+<kw type="kw" name="Greet everyone">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="FAIL" timestamp="20150110 02:45:43.814">No keyword with name 'Greet everyone' found.</msg>
+<status endtime="20150110 02:45:43.818" starttime="20150110 02:45:43.814" status="FAIL"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20150110 02:45:43.818" starttime="20150110 02:45:43.810" status="FAIL">No keyword with name 'Greet everyone' found.</status>
+</test>
+<test name="Say Hello In Pig Latin" id="s1-t2">
+<kw type="kw" name="Reverse greet everyone">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="FAIL" timestamp="20150110 02:45:43.826">No keyword with name 'Reverse greet everyone' found.</msg>
+<status endtime="20150110 02:45:43.826" starttime="20150110 02:45:43.826" status="FAIL"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20150110 02:45:43.830" starttime="20150110 02:45:43.822" status="FAIL">No keyword with name 'Reverse greet everyone' found.</status>
+</test>
+<test name="Make Sure You're Saying Hello" id="s1-t3">
+<kw type="kw" name="${result} = Greet everyone">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="FAIL" timestamp="20150110 02:45:43.838">No keyword with name 'Greet everyone' found.</msg>
+<status endtime="20150110 02:45:43.838" starttime="20150110 02:45:43.838" status="FAIL"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20150110 02:45:43.838" starttime="20150110 02:45:43.834" status="FAIL">No keyword with name 'Greet everyone' found.</status>
+</test>
+<test name="Make A Test That Fails" id="s1-t4">
+<kw type="kw" name="${result} = Reverse greet everyone">
+<doc></doc>
+<arguments>
+</arguments>
+<msg level="FAIL" timestamp="20150110 02:45:43.846">No keyword with name 'Reverse greet everyone' found.</msg>
+<status endtime="20150110 02:45:43.850" starttime="20150110 02:45:43.846" status="FAIL"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20150110 02:45:43.850" starttime="20150110 02:45:43.842" status="FAIL">No keyword with name 'Reverse greet everyone' found.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status endtime="20150110 02:45:43.854" starttime="20150110 02:45:43.451" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4">Critical Tests</stat>
+<stat pass="0" fail="4">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="4" name="HelloWorldTests" id="s1">HelloWorldTests</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="ERROR" timestamp="20150110 02:45:43.802">Error in file 'C:\Users\Trey\Desktop\CS310\jsu-mcis-cs310-master\HelloWorld\acceptance\HelloWorldTests.txt': Importing test library 'HelloWorldKeywords' failed: ImportError: No module named HelloWorldKeywords
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\RobotFramework\robotframework-2.8.5.jar\Lib\robot\libraries
+  C:\RobotFramework\robotframework-2.8.5.jar\Lib
+  C:\RobotFramework\Lib
+  __classpath__
+  __pyclasspath__/
+  .
+  C:\Python34\Lib
+  C:\Python34\DLLs
+  C:\Python34\Lib\lib-tk
+  C:\Users\Trey\Desktop\CS310\jsu-mcis-cs310-master\HelloWorld\acceptance
+CLASSPATH:
+  .
+  ..\build\classes\main
+  C:\RobotFramework\robotframework-2.8.5.jar</msg>
+</errors>
+</robot>
